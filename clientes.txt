@@ -1,0 +1,8 @@
+Guto		36
+Renata		30
+Fernanda		20
+mariana		18
+Maicon		45
+jorge		55
+Gabriel		28
+Everton		60
