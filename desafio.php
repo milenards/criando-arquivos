@@ -1,5 +1,6 @@
+
 <?php
-$arquivo = fopen("fornecedores.txt", "w");
+$arquivo = fopen("fornecedores.txt", "contatos.txt", "w");
 
 $ListaFornecedores = [
     [
@@ -38,7 +39,6 @@ for ($i = 0; $i < count($ListaFornecedores); $i++) {
     fwrite($arquivo, $ListaFornecedores[$i]["email"] . "\t\t");
     fwrite($arquivo, $ListaFornecedores[$i]["country"] . "\n");
 }
-
 fclose($arquivo);
 
 ?>
